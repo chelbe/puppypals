@@ -1,0 +1,213 @@
+/*********ELEMENTS********/
+body{
+	font-family:'Montserrat', sans-serif;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h3{
+	font-weight: 600;
+}
+p{
+	color: #8f8f8f;
+}
+
+/***********Titles section*********/
+.titleHeading{
+	font-weight:900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #654062;
+}
+.btndownload{
+	margin: 5% 3% 7% 0;
+}
+.container-fluid{
+	padding: 3% 15%;
+}
+
+.icon{
+	padding: 0 3px 5px 0;
+}
+.logo{
+	font-family: 'Ubuntu';
+}
+				/*Navbar*/
+				.navbar{
+						padding-bottom: 4.5rem;
+
+				}
+				.navbar-brand{
+					font-family: 'Ubuntu';
+					font-size: 2.5rem;
+					font-weight: bold;
+				}
+				.nav-item{
+					padding: 0 18px;
+				}
+
+				.nav-link{
+					font-size: 1.2rem;
+					font-weight: 200 bolder;
+				}
+/****************************/
+.iphone{
+	width: 25%;
+	transform: rotate(20deg);
+	position: absolute;
+	/*right:25%;*/
+}
+
+#title{
+	background-color:#FA9579;
+}
+
+
+/**********Features section*/
+/*classes*/
+.callRow{
+	padding: 0 3%;
+	text-align: center;
+}
+.calloutic{
+	color: #65D6CE;
+	margin-bottom: 1rem;
+}
+.calloutic:hover{
+	color: #FA9579;
+}
+.callout{
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: #654062;
+}
+/*ids*/
+#features{
+	padding: 9% 15%;
+	background-color: #fff;
+	position: relative;
+	/*z-index: 1;*/
+}
+
+/*TESTIMONIAL SECTION*/
+/*classes*/
+
+.testimonials-img{
+	width: 25%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+/*ids*/
+
+#testimonials{
+	text-align: center;
+	background-color:#654062;
+	color:#FFE9D6;
+}
+.carousel-item{
+	padding: 9% 15%;
+}
+/***************** PRESS SECTION***************************/
+
+/*  CLASSES  */
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/*    ID's     */
+
+#press{
+	text-align: center;
+	padding-bottom: 3%;
+	background-color:#654062;
+}
+
+
+
+	
+/**********PRICING SECTION************/
+ /*CLASSES*/
+.card-header{
+	background-color: #FA9579;
+	color: #FFE9D695;
+}
+.priceBTN{
+	background-color:#FFE9D6;
+}
+.free{
+	border-color: #65D6CE;
+	color: #65D6CE;
+}
+.free:hover{
+	background-color: #65D6CE;
+	opacity: 60%;
+}
+.cost{
+	background-color: #65D6CE;
+	border-color: #65D6CE;
+}
+.cost:hover{
+	background-color: #65D6CE;
+	border-color: #65D6CE;
+	opacity: 60%;
+	color: #000;
+}
+.priceChart{
+	padding: 3% 2%;
+}
+
+
+
+/*   ID's*/
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+ }
+#pricing h2{
+	color:#65D6CE;
+}
+/************CTA SECTION******************/
+#cta{
+	background-color:#FA9579; 
+	color: #654062;
+	font-weight: 900 bolder;
+	text-align: center;
+	/*padding: 5% 7% 0;*/
+	padding: 7% 15%;
+}
+
+/**********************Footer section********/
+#footer{
+	background-color:#fff;
+	text-align: center;
+	padding: 50px;
+	color: #654062;
+}
+#footer .fab{
+	margin: 20px 10px;
+}
+/****************Media Quieres*************/
+
+/*TiTle section*/
+@media (max-width:1028px){
+	.iphone{
+		position: static;
+		transform:rotate(0);
+		width: 50%;
+	}
+	#title{
+		text-align: center;
+	}
+}
+
+
+
+
+
